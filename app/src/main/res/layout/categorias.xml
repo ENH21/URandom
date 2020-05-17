@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#130238"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnFreestylers"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="#AB18CC"
+        android:text="Freestylers"
+        android:textSize="16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPersonajesVideouegos" />
+
+    <Button
+        android:id="@+id/btnGenios"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="31dp"
+        android:background="#AB18CC"
+        android:text="Genios"
+        android:textSize="16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCantantes" />
+
+    <Button
+        android:id="@+id/btnCantantes"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="27dp"
+        android:background="#AB18CC"
+        android:text="Cantantes"
+        android:textSize="16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSuperheroes" />
+
+    <Button
+        android:id="@+id/btnPersonajesVideouegos"
+        android:layout_width="127dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="#AB18CC"
+        android:text="Personajes Videojuegos"
+        android:textSize="16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVillanos" />
+
+    <Button
+        android:id="@+id/btnSuperheroes"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="22dp"
+        android:background="#AB18CC"
+        android:text="Superheroes"
+        android:textSize="16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAtletas" />
+
+    <Button
+        android:id="@+id/btnVillanos"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="#AB18CC"
+        android:text="Villanos"
+        android:textSize="16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActores" />
+
+    <Button
+        android:id="@+id/btnActores"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="#AB18CC"
+        android:text="Actores"
+        android:textSize="16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActrices" />
+
+    <Button
+        android:id="@+id/btnAtletas"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="22dp"
+        android:background="#AB18CC"
+        android:text="Atletas"
+        android:textSize="16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFutbolistas" />
+
+    <TextView
+        android:id="@+id/tvSeleccionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:text="Seleccionar"
+        android:textColor="#F1F1F1"
+        android:textSize="16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNinguno"
+        android:layout_width="126dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="56dp"
+        android:background="#EFC60B"
+        android:text="Ninguno"
+        android:textSize="16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTodos"
+        android:layout_width="126dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="#EFC60B"
+        android:text="Todos"
+        android:textSize="16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnHecho"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="35dp"
+        android:background="#EFC60B"
+        android:text="Hecho!"
+        android:textSize="16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnFutbolistas"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="21dp"
+        android:background="#AB18CC"
+        android:text="Futbolistas"
+        android:textSize="16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNinguno" />
+
+    <Button
+        android:id="@+id/btnActrices"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:background="#AB18CC"
+        android:text="Actrices"
+        android:textSize="16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTodos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
