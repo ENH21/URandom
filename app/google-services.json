@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "206982932060",
+    "firebase_url": "https://urandom-6b263.firebaseio.com",
+    "project_id": "urandom-6b263",
+    "storage_bucket": "urandom-6b263.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206982932060:android:da239742bdd625f6dda899",
+        "android_client_info": {
+          "package_name": "com.estebannaranjo.urandom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206982932060-7bq0t77n9c9fqa179rt8tlmbv73ve378.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.estebannaranjo.urandom",
+            "certificate_hash": "c732dc5b5b1c002389e88514af6e11c2fbdbaedf"
+          }
+        },
+        {
+          "client_id": "206982932060-h070cdb84kjnekjua0sk6k8ro1tqh2qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLTLkJV5s0Ln2382EO_p8pbNupql5-jJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206982932060-h070cdb84kjnekjua0sk6k8ro1tqh2qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
