@@ -39,7 +39,7 @@ public class PrincipalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.principal);
         ivfoto = findViewById(R.id.ivFoto);
-        ivfoto.setImageResource(R.drawable._karimbenzema);
+        ivfoto.setImageResource(R.drawable.fotoinicio);
         btnDamelo = findViewById(R.id.btnDamelo);
         btnSeleccionar = findViewById(R.id.btnSeleccionar);
         tvFecha = findViewById(R.id.tvFecha);
