@@ -16,20 +16,20 @@
         android:layout_marginRight="36dp"
         android:background="#AB18CC"
         android:text="Freestylers"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnPersonajesVideouegos" />
+        app:layout_constraintTop_toBottomOf="@+id/btnVideojuegos" />
 
     <Button
-        android:id="@+id/btnGenios"
+        android:id="@+id/btnHistoricos"
         android:layout_width="127dp"
         android:layout_height="69dp"
         android:layout_marginStart="37dp"
         android:layout_marginLeft="37dp"
         android:layout_marginTop="31dp"
         android:background="#AB18CC"
-        android:text="Genios"
-        android:textSize="16"
+        android:text="Personajes Historicos"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCantantes" />
 
@@ -42,12 +42,12 @@
         android:layout_marginTop="27dp"
         android:background="#AB18CC"
         android:text="Cantantes"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSuperheroes" />
 
     <Button
-        android:id="@+id/btnPersonajesVideouegos"
+        android:id="@+id/btnVideojuegos"
         android:layout_width="127dp"
         android:layout_height="75dp"
         android:layout_marginTop="24dp"
@@ -55,7 +55,7 @@
         android:layout_marginRight="36dp"
         android:background="#AB18CC"
         android:text="Personajes Videojuegos"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnVillanos" />
 
@@ -68,7 +68,7 @@
         android:layout_marginTop="22dp"
         android:background="#AB18CC"
         android:text="Superheroes"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAtletas" />
 
@@ -81,7 +81,7 @@
         android:layout_marginRight="36dp"
         android:background="#AB18CC"
         android:text="Villanos"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnActores" />
 
@@ -94,7 +94,7 @@
         android:layout_marginRight="36dp"
         android:background="#AB18CC"
         android:text="Actores"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnActrices" />
 
@@ -107,7 +107,7 @@
         android:layout_marginTop="22dp"
         android:background="#AB18CC"
         android:text="Atletas"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnFutbolistas" />
 
@@ -120,33 +120,7 @@
         android:layout_marginRight="164dp"
         android:text="Seleccionar"
         android:textColor="#F1F1F1"
-        android:textSize="16"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnNinguno"
-        android:layout_width="126dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="56dp"
-        android:background="#EFC60B"
-        android:text="Ninguno"
-        android:textSize="16"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnTodos"
-        android:layout_width="126dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
-        android:background="#EFC60B"
-        android:text="Todos"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -159,7 +133,7 @@
         android:layout_marginBottom="35dp"
         android:background="#EFC60B"
         android:text="Hecho!"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -168,25 +142,35 @@
         android:layout_width="127dp"
         android:layout_height="69dp"
         android:layout_marginStart="35dp"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="113dp"
         android:background="#AB18CC"
         android:text="Futbolistas"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnNinguno" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnActrices"
         android:layout_width="127dp"
         android:layout_height="69dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="113dp"
         android:layout_marginEnd="37dp"
-        android:layout_marginRight="37dp"
         android:background="#AB18CC"
         android:text="Actrices"
-        android:textSize="16"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnTodos" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/swTodo"
+        android:layout_width="82dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="21dp"
+        android:background="#EFC60B"
+        android:text="Todo"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeleccionar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

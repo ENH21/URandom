@@ -8,51 +8,30 @@
     android:background="#130238"
     android:layout_height="match_parent">
 
-    <View
-        android:id="@+id/divider2"
-        android:layout_width="326dp"
-        android:layout_height="2dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="184dp"
-        android:background="#EFC60B"
-        card_view:layout_constraintStart_toStartOf="parent"
-        card_view:layout_constraintTop_toBottomOf="@+id/textView2" />
-
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/ivFoto"
         android:layout_width="336dp"
-        android:layout_height="294dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="17dp"
+        android:layout_height="355dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvNombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/tvTitulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="183dp"
-        android:layout_marginLeft="183dp"
-        android:layout_marginTop="33dp"
-        android:text="Eres..."
-        android:textColor="#F1F1F1"
-        android:textSize="16"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[10]" />
 
     <Button
         android:id="@+id/btnDamelo"
         android:layout_width="132dp"
         android:layout_height="52dp"
         android:layout_marginEnd="52dp"
-        android:layout_marginRight="52dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="44dp"
         android:background="#EFC60B"
-        android:textSize="16"
         android:text="Damelo!"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -60,64 +39,64 @@
         android:id="@+id/btnSeleccionar"
         android:layout_width="128dp"
         android:layout_height="51dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginLeft="51dp"
-        android:layout_marginBottom="57dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="44dp"
         android:background="#AB18CC"
-        android:textSize="16"
         android:text="Seleccionar"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <View
-        android:id="@+id/divider"
-        android:layout_width="326dp"
-        android:layout_height="2dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="12dp"
-        android:background="#EFC60B"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="144dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="133dp"
-        android:layout_marginLeft="133dp"
-        android:layout_marginTop="15dp"
+        android:id="@+id/tvNombre"
+        android:layout_width="240dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="17dp"
+        android:gravity="center"
         android:text="Nombre persona"
         android:textColor="#F1F1F1"
-        android:textSize="18"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvFecha"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="108dp"
-        android:layout_height="25dp"
+        android:id="@+id/tvFecha"
+        android:layout_width="242dp"
+        android:layout_height="24dp"
         android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
         android:layout_marginBottom="16dp"
         android:text="Fecha"
         android:textColor="#F1F1F1"
-        android:textSize="17"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvInfo"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="307dp"
-        android:layout_height="87dp"
+        android:id="@+id/tvInfo"
+        android:layout_width="289dp"
+        android:layout_height="70dp"
         android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="44dp"
         android:text="Informacion personal del personaje"
         android:textColor="#F1F1F1"
-        android:textSize="17"
+        android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@+id/btnDamelo"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp"
+        android:text="Eres..."
+        android:textColor="#F1F1F1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/ivFoto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
